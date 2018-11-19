@@ -1,0 +1,42 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  width: 500px;
+  margin-left: 10px;
+}
+
+#user_question {
+  width: 300px;
+  box-shadow: -10px 0px 0px #dddddd;
+  margin-bottom: 10px;
+}
+#user_question #question {
+  font-size: 20px;
+  font-family: "FreightSansPro";
+  padding-left: 10px;
+}
+
+#you {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "FreightSansPro";
+  padding-left: 10px;
+}
+
+#response {
+  width: 300px;
+  box-shadow: -10px 0px 0px #dddddd;
+  margin-bottom: 10px;
+  background: #fffee2;
+  padding-left: 10px;
+
+}
+
+#response #coach_response {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "FreightSansPro";
+  padding-left: 10px;
+}
